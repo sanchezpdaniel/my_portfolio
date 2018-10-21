@@ -63,7 +63,9 @@
     grid-template-columns: 1fr;
 
     .bio-image {
+      background: url("../img/portrait.jpg");
       width: 315px;
+      height: 415px;
     }
   }
 
