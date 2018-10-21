@@ -112,6 +112,10 @@ main {
   }
 }
 
+.bio-section {
+  border-bottom: $secondary-color 3px solid;
+}
+
 // Work/Projects
 .projects {
   display: grid;
