@@ -275,10 +275,6 @@ main {
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
-    .about-info .bio-image {
-      src: url("../dist/img/portrait.jpg");
-      width: 315px;
-      height: 415px; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
