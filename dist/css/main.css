@@ -278,7 +278,8 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   .bio-image {
-    width: 315px; } }
+    width: 250px;
+    height: 320px; } }
 
 @media screen and (max-width: 500px) {
   main {
