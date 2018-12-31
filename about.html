@@ -1,130 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About Me</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-  <title>About Me</title>
-</head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
 
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
+      <nav class="menu">
+        <div class="menu-branding"><div class="portrait"></div></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait">
+    <main id="about">
+      <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+      <h2 class="sm-heading">Let me tell you a few things...</h2>
+      <div class="about-info">
+        <img
+          src="img/picture-portrait.jpg"
+          alt="Daniel Sanchez"
+          class="bio-image"
+        />
+        <div class="bio">
+          <h3 class="text-secondary">BIO</h3>
 
+          <div class="bio-section">
+            <p>
+              My name is <strong>Daniel Sanchez Peña</strong>. I graduated from
+              <strong>California State University Long Beach</strong>, where I
+              obtained a
+              <strong>Bachelor of Science in Computer Science</strong>.
+            </p>
+            <p>
+              I specialize in <strong>full stack web development</strong> and
+              <strong>software engineering</strong>. I know a variety of
+              programming languages and frameworks, that allow me to build real
+              world applications.
+            </p>
+          </div>
+
+          <div class="bio-section">
+            <p><strong>Technical Skills</strong></p>
+
+            <p>
+              Programming Languages:<strong> Java, C++, C#.NET, Python</strong>
+            </p>
+
+            <p>
+              Web Development:
+              <strong
+                >Javascript, NodeJS, Express, JSP, ASP.NET, HTML5, CSS3, React,
+                Angular, PHP, AJAX, JSON, jQuery</strong
+              >
+            </p>
+
+            <p>Mobile Development: <strong>Android, React Native</strong></p>
+
+            <p>
+              Databases:
+              <strong> SQL Server, MySQL, MongoDB, Apache Derby, LINQ</strong>
+            </p>
+
+            <p>Operating Systems: <strong>Windows, Unix/Linux, Mac</strong></p>
+          </div>
+
+          <div class="bio-section">
+            <p><strong>Other Skills</strong></p>
+            <p>
+              Fluency in both English and Spanish; detail oriented; strong
+              analytical skills; SharePoint
+            </p>
+          </div>
+        </div>
+
+        <div class="job job-1">
+          <h3>KPMG en México</h3>
+          <h5>November 2018 - Current</h5>
+          <h4>Desarrollador Web para intranet</h4>
+          <p>
+            I am currently working on a web application that allows you to keep
+            track of and manage online accounts. See more in "My Work" page.
+          </p>
+        </div>
+
+        <div class="job job-2">
+          <h3>Account Tracker</h3>
+          <h5>April 2018 - Current</h5>
+          <h4>MEAN stack application (personal project)</h4>
+          <p>
+            I am working on a web application that allows you to keep track of
+            and manage online accounts. See more in "My Work" page.
+          </p>
+        </div>
+
+        <div class="job job-3">
+          <h3>Startup company</h3>
+          <h5>October 2017 - February 2018</h5>
+          <h4>Freelance Developer</h4>
+          <p>
+            I worked as a freelance developer at a startup company called
+            Connected Elderly for more than 3 months.
+          </p>
+          <p>
+            I utilized front-end technologies such as HTML, CSS, jQuery, and
+            Boostratp.
+          </p>
+          <p>
+            I worked directly with stakeholders to design the web application.
+          </p>
+        </div>
+
+        <div class="job job-4">
+          <h3>Software Security Certificate</h3>
+          <h5>June 2017</h5>
+          <h4>University of Maryland, College Park on Coursera</h4>
+          <p>
+            I obtained a Software Security certificate from the University of
+            Maryland through Coursera in June 2017.
+          </p>
         </div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    </main>
 
-  <main id="about">
-    <h1 class="lg-heading">
-      About <span class="text-secondary">Me</span>
-    </h1>
-    <h2 class="sm-heading">
-      Let me tell you a few things...
-    </h2>
-    <div class="about-info">
-      <img src="img/portrait.jpg" alt="Daniel Sanchez" class="bio-image">
-      <div class="bio">
-        <h3 class="text-secondary">BIO</h3>
+    <footer id="main-footer">Copyright &copy; 2018</footer>
 
-        <div class="bio-section">
-          <p>My name is <strong>Daniel Sanchez Peña</strong>. I graduated from <strong>California State
-              University Long Beach</strong>,
-            where
-            I obtained a <strong>Bachelor of Science in Computer Science</strong>.</p>
-          <p>I specialize in <strong>full stack web development</strong> and <strong>software engineering</strong>. I
-            know a variety of programming languages and
-            frameworks, that
-            allow me to build real world applications.</p>
-        </div>
-
-        <div class="bio-section">
-          <p><strong>Technical Skills</strong></p>
-
-          <p>Programming Languages:<strong> Java, C++, C#.NET, Python</strong></p>
-
-          <p>Web Development: <strong>Javascript, NodeJS, Express, ASP.NET, HTML5, CSS3, React, Angular, PHP, AJAX,
-              JSON,
-              jQuery</strong></p>
-
-          <p>Mobile Development: <strong>Android, React Native</strong></p>
-
-          <p>Databases: <strong>MySQL, MongoDB, Apache Derby, LINQ</strong></p>
-
-          <p>Operating Systems: <strong>Windows, Unix/Linux, Mac</strong></p>
-        </div>
-
-        <div class="bio-section">
-          <p><strong>Other Skills</strong></p>
-          <p>Fluency in both English and Spanish; detail oriented; strong analytical skills</p>
-        </div>
-
-      </div>
-
-      <div class="job job-1">
-        <h3>Startup company</h3>
-        <h6>Freelance Developer</h6>
-        <p>I worked as a freelance developer at a startup company called Connected Elderly for more than 3 months.</p>
-        <p>I utilized front-end technologies such as HTML, CSS, jQuery, and Boostratp.</p>
-        <p>I worked directly with stakeholders to design the web application.</p>
-      </div>
-
-      <div class="job job-2">
-        <h3>Software Security Certificate</h3>
-        <h6>University of Maryland, College Park on Coursera</h6>
-        <p>I obtained a Software Security certificate from the University of Maryland through Coursera in June 2017.</p>
-
-      </div>
-
-      <div class="job job-3">
-        <h3>Account Tracker</h3>
-        <h6>MEAN stack application (personal project)</h6>
-        <p>I am currently working on a web application that allows you to keep track of and manage online accounts. See
-          more in "My Work" page.</p>
-      </div>
-    </div>
-  </main>
-
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
